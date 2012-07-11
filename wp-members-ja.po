@@ -1,17 +1,16 @@
-# Copyright (C) 2010 WP-Members
+# Copyright (C) 2012 WP-Members
 # This file is distributed under the same license as the WP-Members package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-Members 2.7.1\n"
+"Project-Id-Version: WP-Members 2.7.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-members\n"
 "POT-Creation-Date: 2012-06-14 00:20:49+00:00\n"
-"PO-Revision-Date: 2012-07-09 13:16+0900\n"
-"Last-Translator: hijiri <hijiriworld@gmail.com>\n"
-"Language-Team: http://butlerblog.com/wp-members/\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Japanese\n"
+"PO-Revision-Date: 2012-07-11 16:01+0900\n"
+"Last-Translator: hijiri <hijiriworld@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: wp-members-admin.php:35
 #: wp-members-admin.php:715
@@ -132,7 +131,7 @@ msgstr "管理画面でWP-Membersの警告メッセージを表示しません�
 
 #: wp-members-admin.php:228
 msgid "Members Area URL:"
-msgstr "メンバーズページ"
+msgstr "メンバーズページのURL"
 
 #: wp-members-admin.php:229
 #: wp-members-admin.php:235
@@ -143,7 +142,7 @@ msgstr "（オプション）"
 
 #: wp-members-admin.php:234
 msgid "Register Page URL:"
-msgstr "新規ユーザー登録ページ"
+msgstr "新規ユーザー登録ページのURL"
 
 #: wp-members-admin.php:240
 msgid "Custom CSS:"
@@ -211,23 +210,23 @@ msgstr "追加"
 
 #: wp-members-admin.php:315
 msgid "text"
-msgstr "text"
+msgstr "テキスト"
 
 #: wp-members-admin.php:316
 msgid "textarea"
-msgstr "textarea"
+msgstr "テキストエリア"
 
 #: wp-members-admin.php:317
 msgid "checkbox"
-msgstr "checkbox"
+msgstr "チェックボックス"
 
 #: wp-members-admin.php:318
 msgid "dropdown"
-msgstr "dropdown"
+msgstr "ドロップダウン"
 
 #: wp-members-admin.php:319
 msgid "password"
-msgstr "password"
+msgstr "パスワード"
 
 #: wp-members-admin.php:328
 msgid "For checkbox, stored value if checked:"
@@ -323,7 +322,7 @@ msgstr "WP-Members ダイアログ設定 を更新しました。"
 
 #: wp-members-admin.php:639
 msgid "reCAPTCHA was updated for WP-Members"
-msgstr "WP-Members reCAPTCHA を更新しました。"
+msgstr "WP-Members reCAPTCHA を更新しました"
 
 #: wp-members-admin.php:655
 msgid "WP-Members expiration periods were updated"
@@ -331,7 +330,7 @@ msgstr "WP-Members 有効期限 を更新しました。"
 
 #: wp-members-admin.php:704
 msgid "WP-Members emails were updated"
-msgstr "WP-Members メール を更新しました。"
+msgstr "WP-Members メール設定 を更新しました。"
 
 #: wp-members-admin.php:721
 msgid "Settings were saved, but you have required fields that are not set to display!"
@@ -339,7 +338,7 @@ msgstr "設定を保存しましたが、必須項目が非表示になってい
 
 #: wp-members-admin.php:722
 msgid "Note: This will not cause an error for the end user, as only displayed fields are validated.  However, you should still check that your displayed and required fields match up.  Mismatched fields are highlighted below."
-msgstr "エンドユーザー向けのエラーは発生しませんが、必須項目が表示になっているか確認してください。"
+msgstr "ユーザー向けのエラーは発生しませんが、必須項目が表示になっているか確認してください。"
 
 #: wp-members-admin.php:782
 msgid "Version:"
@@ -371,7 +370,7 @@ msgstr "メール"
 
 #: wp-members-admin.php:810
 msgid "reCAPTCHA"
-msgstr "reCAPTCHA"
+msgstr "reCAPTCH"
 
 #: wp-members-admin.php:813
 msgid "Subscriptions"
@@ -395,7 +394,7 @@ msgstr "reCAPTCHA 設定"
 
 #: wp-members-admin.php:888
 msgid "reCAPTCHA is a free, accessible CAPTCHA service that helps to digitize books while blocking spam on your blog."
-msgstr "reCAPTCHAは、投稿されたデータが実際に人間の手によるものかスパムボットによるものなのかを画像を使って判別するシステムです。"
+msgstr "reCAPTCHAは、投稿されたデータが実際に人間の手によるものなかスパムボットによるものなのかを画像を使って判別するシステムです。"
 
 #: wp-members-admin.php:889
 msgid "reCAPTCHA asks commenters to retype two words scanned from a book to prove that they are a human. This verifies that they are not a spambot while also correcting the automatic scans of old books. So you get less spam, and the world gets accurately digitized books. Everybody wins! For details, visit the %s reCAPTCHA website%s"
@@ -541,7 +540,7 @@ msgstr "（オプション）"
 
 #: wp-members-admin.php:1478
 msgid "Set a custom email name"
-msgstr "メール送信者の名前"
+msgstr "送信者の名前（カスタム）"
 
 #: wp-members-admin.php:1489
 msgid "Subject"
@@ -569,7 +568,7 @@ msgstr "パスワードを入力してください。"
 
 #: wp-members-core.php:465
 msgid "<strong>ERROR</strong>: User has not been activated."
-msgstr ""
+msgstr "<strong>ERROR</strong>: User has not been activated."
 
 #: wp-members-core.php:975
 msgid "Additional Info"
@@ -640,7 +639,6 @@ msgid "but you have not entered API keys.  You will need both a public and priva
 msgstr "APIキーが入力されていません。有効なAPIキーを設定しないとCAPTCHAは表示されません。"
 
 #: wp-members-dialogs.php:53
-#, fuzzy
 msgid "Existing Users Login"
 msgstr "ログインフォーム"
 
@@ -780,7 +778,7 @@ msgstr "パスワードリセット"
 #: wp-members-dialogs.php:587
 #: wp-members-dialogs.php:959
 msgid "New User?"
-msgstr "新規ユーザー"
+msgstr "はじめての方はこちら"
 
 #: wp-members-dialogs.php:587
 #: wp-members-dialogs.php:959
@@ -965,11 +963,11 @@ msgstr "パラメーターが正しくありません。"
 
 #: wp-members-register.php:296
 msgid "reCAPTCHA API keys are tied to a specific domain name for security reasons."
-msgstr "reCAPTCHAのAPIキーは、セキュリティ上の理由から、特定のドメイン名に関連付けられています"
+msgstr "reCAPTCHAのAPIキーは、セキュリティ上の理由から、特定のドメイン名に関連付けられています。"
 
 #: wp-members-register.php:300
 msgid "The reCAPTCHA server was not reached.  Please try to resubmit."
-msgstr "サーバエラーです。再送信してみてください。"
+msgstr "reCAPTCHA サーバエラーです。再送信してみてください。"
 
 #: wp-members-sidebar.php:95
 #: wp-members-sidebar.php:125
@@ -1017,24 +1015,3 @@ msgstr "%s閉じる%s"
 msgid "%sprint%s"
 msgstr "%s印刷%s"
 
-#~ msgid "http://butlerblog.com/wp-members/"
-#~ msgstr "http://butlerblog.com/wp-members/"
-
-#~ msgid ""
-#~ "WP access restriction and user registration.  For more information and to "
-#~ "download the Users Guide, visit <a href=\"http://butlerblog.com/wp-members"
-#~ "\">http://butlerblog.com/wp-members</a>. A <a href=\"http://butlerblog."
-#~ "com/wp-members/wp-members-quick-start-guide/\">Quick Start Guide</a> is "
-#~ "also available. WP-Members(tm) is a trademark of butlerblog.com."
-#~ msgstr ""
-#~ "WordPressのアクセス制限とユーザー登録。詳細およびユーザーズガイドをダウン"
-#~ "ロードするには、<a href=\"http://butlerblog.com/wp-members\">http://"
-#~ "butlerblog.com/wp-members</a> にアクセスしてください。<a href=\"http://"
-#~ "butlerblog.com/wp-members/wp-members-quick-start-guide/\">Quick Start "
-#~ "Guide</a> も用意されています。WP-Members(tm) はbutlerblog.comの商標です。"
-
-#~ msgid "Chad Butler"
-#~ msgstr "Chad Butler"
-
-#~ msgid "http://butlerblog.com/"
-#~ msgstr "http://butlerblog.com/"
